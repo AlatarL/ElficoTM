@@ -17,6 +17,7 @@ namespace ElficoTM.Pages
             new ("Aearedhel", "Elfo marino. Teler", S),
             new ("Aearedhil", "Elfi marini. Teleri", S),
             new ("Aiya", "Saluto d'arrivo. Salve", Q),
+            new ("Algul", "Magia proibita", S),
             new ("Annon lle", "Prego", Q),
             new ("Aran", "Re (singolare)", Q),
             new ("Aran Tumno", "Re del profondo. Earlann in forma di balena"),
@@ -37,6 +38,7 @@ namespace ElficoTM.Pages
             new ("Calaquendi", "Elfi della luce. Quenya"),
             new ("Calen", "Verde. Tiond"),
             new ("Caran-Carch", "Zanna-Rossa. Suldanas in forma di lupo"),
+            new ("Curu", "Arte arcana"),
             // D
             new ("Diolla lle", "Grazie"),
             new ("Doriath", "Terra inghirlandata dal mare. Terra degli elfi"),
@@ -50,12 +52,17 @@ namespace ElficoTM.Pages
             new ("Edhil Mhithrin", "Elfi grigi. Sindarin", S),
             new ("Elda", "Elfo", Q),
             new ("Eldar", "Elfi", Q),
+            new ("Elen", "Stella"),
+            new ("Eleni", "Stelle"),
+            new ("Elentari", "Regina delle stelle. Morrigan"),
+            new ("Eruanna", "Dono di Morrigan. Magia"),
             // F
             new ("Fara Aer", "Caccia sacra"),
             // G
             new ("Galedhel", "Elfo della luce. Quenya", S),
             new ("Galedhil", "Elfi della luce. Quenya", S),
             new ("Gondolin", "Pietre cantanti. Ondolinde", S),
+            new ("Gul", "Magia", S),
             new ("Gwador", " Fratello (solo tra sindarin o elfi a cui si sentono particolarmente vicini)", S),
             new ("Gwathel", "Sorella (solo tra sindarin o elfi a cui si sentono particolarmente vicini)", S),
             new ("Gwedeir", "Fratelli (solo tra sindarin o elfi a cui si sentono particolarmente vicini)", S),
@@ -65,10 +72,16 @@ namespace ElficoTM.Pages
             new ("Herain", "Re (plurale)", S),
             new ("Hildoriath", "Terra degli elfi. Doriath", S),
             // I
+            new ("Ingol", "Magia", Q),
+            new ("Istar", "Mago"),
+            new ("Istari", "Maghi"),
             // J
             // K
             new ("Kelthra", "“Regina dei ragni”, “la figlia di Luugh”, “regina di veleno e malattie”"),
+            new ("Khalna", "Maestro (di magia)"),
+            new ("Kuru Raen", "Sapiente della luna. Titolo di Valinor"),
             // L
+            new ("Langol", "Magia proibita", Q),
             new ("Lass Galen", "Foglia verde. Regina", S),
             new ("Lasse Calen", "Foglia Verde. Regina (arcaico)", S),
             new ("Lestanore", "Terra degli elfi. Doriath", Q),
@@ -86,9 +99,13 @@ namespace ElficoTM.Pages
             new ("Maer re", "Buon giorno", S),
             new ("Marilla", "Perla. Rotiniel"),
             new ("Mor'Quessir", "Drow (plurale)"),
+            new ("Morgul", "Magia nera", S),
+            new ("Moringul", "Magia nera", Q),
             new ("Morrigan", "“Dea della magia e della dissimulazione”, “signora degli inganni”, “regina delle stelle”"),
             // N
             new ("Naàmarie", "saluto di congedo"),
+            new ("Nauco", "Nano"),
+            new ("Naucor", "Nano"),
             new ("Nay", "No"),
             new ("Nelya", "Terzo"),
             new ("Nelyar", "Terzi. Teleri"),
