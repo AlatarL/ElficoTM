@@ -6,10 +6,10 @@
         public string Lang { get; }
         public string Meaning { get; }
 
-        public Word(string elven, string lang, string meaning)
+        public Word(string elven, string meaning, string lang = null)
         {
             Elven = elven;
-            Lang = lang;
+            Lang = lang ?? "elfico";
             Meaning = meaning;
         }
     }

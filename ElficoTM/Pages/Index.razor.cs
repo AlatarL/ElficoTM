@@ -1,6 +1,7 @@
 ﻿using Microsoft.AspNetCore.Components;
 using Microsoft.AspNetCore.Components.Web;
 using System.Collections.Generic;
+using static ElficoTM.Pages.Elven;
 
 namespace ElficoTM.Pages
 {
@@ -9,17 +10,6 @@ namespace ElficoTM.Pages
         [Parameter]
         public string Text { get; set; }
 
-        private static List<Word> _words = new List<Word>
-        {
-            new ("Ay" ,"quenya", "Sì"),
-            new ("Bala", "telerin","Dio"),
-            new ("Balai", "telerin","Dei"),
-            new ("Balain", "sindarin", "Dei"),
-            new ("Balan", "sindarin", "Dio"),
-            new ("Fara Aer", "quenya", "Caccia sacra"),
-            new ("Nay", "quenya", "No")
-        };
-
         private string _userInput;
         private readonly List<Word> _output = new List<Word>();
 
@@ -27,7 +17,7 @@ namespace ElficoTM.Pages
         {
             if (string.IsNullOrEmpty(Text))
             {
-                _output.AddRange(_words);
+                _output.AddRange(Words);
             }
             else
             {
@@ -44,7 +34,7 @@ namespace ElficoTM.Pages
 
                 if (string.IsNullOrWhiteSpace(_userInput))
                 {
-                    _output.AddRange(_words);
+                    _output.AddRange(Words);
                 }
                 else
                 {
@@ -55,7 +45,7 @@ namespace ElficoTM.Pages
 
         private IEnumerable<Word> Search()
         {
-            foreach (var word in _words)
+            foreach (var word in Words)
             {
                 if (word.Contains(_userInput))
                 {
