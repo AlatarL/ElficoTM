@@ -1,5 +1,6 @@
 ﻿using Microsoft.AspNetCore.Components;
 using Microsoft.AspNetCore.Components.Web;
+using System;
 using System.Collections.Generic;
 using static ElficoTM.Pages.Elven;
 
@@ -7,49 +8,59 @@ namespace ElficoTM.Pages
 {
     public partial class Index
     {
-        [Parameter]
-        public string Text { get; set; }
-
-        private string _userInput;
+        private string _headwordInput;
+        private string _descriptionInput;
         private readonly List<Word> _output = new List<Word>();
 
         protected override void OnInitialized()
         {
-            if (string.IsNullOrEmpty(Text))
-            {
-                _output.AddRange(Words);
-            }
-            else
-            {
-                _userInput = Text;
-                _output.AddRange(Search());
-            }
+            _output.AddRange(Words);
         }
 
-        private void KeyPressHandler(KeyboardEventArgs args)
+        private void HeadwordKeyPressHandler(KeyboardEventArgs args)
         {
             if (args.Key == "Enter")
             {
                 _output.Clear();
+                _descriptionInput = string.Empty;
 
-                if (string.IsNullOrWhiteSpace(_userInput))
+                if (string.IsNullOrWhiteSpace(_headwordInput))
                 {
                     _output.AddRange(Words);
                 }
                 else
                 {
-                    _output.AddRange(Search());
+                    foreach (var word in Words)
+                    {
+                        if (word.Contains(_headwordInput))
+                        {
+                            _output.Add(word);
+                        }
+                    }
                 }
             }
         }
 
-        private IEnumerable<Word> Search()
+        private void DescriptionKeyPressHandler(KeyboardEventArgs args)
         {
-            foreach (var word in Words)
+            if (args.Key == "Enter")
             {
-                if (word.Contains(_userInput))
+                _output.Clear();
+                _headwordInput = string.Empty;
+
+                if (string.IsNullOrWhiteSpace(_descriptionInput))
                 {
-                    yield return word;
+                    _output.AddRange(Words);
+                }
+                else
+                {
+                    foreach (var word in Words)
+                    {
+                        if (word.Meaning.Contains(_descriptionInput, StringComparison.OrdinalIgnoreCase))
+                        {
+                            _output.Add(word);
+                        }
+                    }
                 }
             }
         }

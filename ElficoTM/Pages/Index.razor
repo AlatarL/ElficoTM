@@ -1,12 +1,21 @@
-﻿@page "/{text?}"
+﻿@page "/"
 
-<input type="text" @bind="_userInput" @bind:event="oninput" @onkeypress="KeyPressHandler" />
+<table>
+    <tr>
+        <td>Cerca lemma</td>
+        <td><input type="text" @bind="_headwordInput" @bind:event="oninput" @onkeypress="HeadwordKeyPressHandler" /></td>
+    </tr>
+    <tr>
+        <td>Cerca descrizione</td>
+        <td><input type="text" @bind="_descriptionInput" @bind:event="oninput" @onkeypress="DescriptionKeyPressHandler" /></td>
+    </tr>
+</table>
 
 @foreach (var word in _output)
 {
 <p>
     <hr>
-    <span style="font-weight: bold; color: blue;">@word.Elven</span>, <span style="font-style: italic">@word.Lang</span> <a href="./@word.Elven" target="_blank">[L]</a>
+    <span style="font-weight: bold; color: blue;">@word.Elven</span>, <span style="font-style: italic">@word.Lang</span>
     <br>
     <span>@word.Meaning.</span>
 </p>

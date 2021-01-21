@@ -20,9 +20,10 @@ namespace ElficoTM.Pages
             new ("Algul", "Magia proibita", S),
             new ("Amanie Earenya", "Ministro. Titolo di Rotiniel"),
             new ("Amanirme", "Sacerdote"),
+            new ("Amart’hyanda", "La spada degli antichi"),
             new ("Amil en'Morrigan", "Matriarca di Morrigan. Titolo di Rotiniel", Q),
             new ("Amille valarion", "Madre degli dei. Beltaine"),
-            new ("Anna feain", "Dono per le anime. Rito di Beltaine cone Morrigan ed Earlann"),
+            new ("Anna feain", "Dono per le anime. Rito di Beltaine con Morrigan ed Earlann"),
             new ("Annon lle", "Prego", Q),
             new ("Aracano Fanyaron", "Conduttrice dei cieli. Morrigan", T),
             new ("Aran", "Re (singolare)", Q),
@@ -75,11 +76,12 @@ namespace ElficoTM.Pages
             // F
             new ("Fear doron", "Spirito della quercia"),
             new ("Falma laurie", "Onda d'oro"),
-            new ("Falmar laurie", "Onde d'oro. "),
+            new ("Falmar laurie", "Onde d'oro. Massimo organismo del clero di Earlann"),
             new ("Fara Aer", "Caccia sacra"),
             // G
             new ("Galedhel", "Elfo della luce. Quenya", S),
             new ("Galedhil", "Elfi della luce. Quenya", S),
+            new ("Ghauna", "Imperfetti, reietti, elfi infelici"),
             new ("Gondolin", "Pietre cantanti. Ondolinde", S),
             new ("Gul", "Magia", S),
             new ("Gwador", " Fratello (solo tra sindar o elfi a cui si sentono particolarmente vicini)", S),
@@ -127,6 +129,7 @@ namespace ElficoTM.Pages
             new ("Luinfari", "Anime/spiriti azzurri"),
             new ("Luinquendi", "Elfi azzurri. Unendosi con i quenya diedero vita ai teleri"),
             new ("Luugh", "“Dio dell’odio e della sofferenza”, “signore del dolore”, “l’invidioso”, “il perfetto”, “l’unico”"),
+            new ("Luughnasad","Grande città sotterranea dei Drow"),
             // M
             new ("Machtar yaren", "Guerrieri del sangue. Gilda con sede a Nolwe"),
             new ("Mae govannen", "Ben incontrato"),
@@ -189,6 +192,7 @@ namespace ElficoTM.Pages
             // S
             new ("Sairo en'nolwen", "Discente del sapere. Titolo onorario di Rotiniel", Q),
             new ("Samnar", "Cardine. Titolo di Rotiniel"),
+            new ("Saràt Nomë", "Sigillo dell'esilio. Rituale magico"),
             new ("Sèler", "Sorella (solo tra elfi)"),
             new ("Sèlerin", "Sorelle (solo tra elfi)"),
             new ("Sercë en sangwa", "Sangue e veleno. Motto dei Guerrieri del sangue"),
