@@ -179,7 +179,7 @@ namespace ElficoTM.Pages
             new ("Morn draug", "Nero lupo. Titolo di Valinor"),
             new ("Morrigan", "“Dea della magia e della dissimulazione”, “signora degli inganni”, “regina delle stelle”"),
             // N
-            new ("Naàmarie", "saluto di congedo"),
+            new ("Naàmarie", "saluto di congedo. Addio"),
             new ("Nauco", "Tozzo. Nano", Q),
             new ("Naucor", "Tozzi. Nani", Q),
             new ("Naug", "Nano", S),
