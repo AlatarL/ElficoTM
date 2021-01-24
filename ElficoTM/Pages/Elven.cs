@@ -186,6 +186,7 @@ namespace ElficoTM.Pages
             new ("Naucor", "Tozzi. Nani", Q),
             new ("Naug", "Nano", S),
             new ("Naugrim", "Nani", S),
+            new ("Navaer", "Saluto di congedo. Stammi bene", S),
             new ("Nay", "No"),
             new ("Nelya", "Terzo"),
             new ("Nelyar", "Terzi. Teleri"),
@@ -249,18 +250,18 @@ namespace ElficoTM.Pages
             new ("Tirith Earenya", "Consigliere mercantile. Titolo di Rotiniel"),
             new ("Tòr", "Fratello (solo tra elfi)"),
             new ("Toronin", "Fratelli (solo tra elfi)"),
-            new ("Tuima", "Gemma, germoglio. Abitanti di Valinor. Titolo di Valinor"),
+            new ("Tuima", "Gemma, germoglio. Abitante di Valinor. Titolo di Valinor"),
             // U
             new ("Únótimë lar", "Innumerevoli riccheze. Tipico saluto tra mercanti", T),
             // V
             new ("Val'istar", "Grande mago/stregone. Titolo di Valinor"),
             new ("Vàla", "Dio", Q),
             new ("Vàlar" , "Dei", Q),
-            new ("Valinor", "Regno imperituro. Reame/gilda di quenya e sindar con sede ad Ondolinde"),
             new ("Valìe", "Dea", Q),
             new ("Valìer" , "Dee", Q),
             new ("Valim", "Chiaromanto. Simbolo di Valinor, due alberi abbracciati"),
             new ("Valinrim", "Membri di Valinor"),
+            new ("Valinor", "Regno imperituro. Reame/gilda di quenya e sindar con sede ad Ondolinde"),
             new ("Veduì", "Saluto d'arrivo formale", Q),
             // W
             // X
