@@ -25,6 +25,7 @@ namespace ElficoTM.Pages
             new ("Amart’hyanda", "La spada degli antichi"),
             new ("Amil en'Morrigan", "Matriarca di Morrigan. Titolo di Rotiniel", Q),
             new ("Amille valarion", "Madre degli dei. Beltaine"),
+            new ("Amin", "Mio"),
             new ("Angul", "Magia proibita", S),
             new ("Anna feain", "Dono per le anime. Rito di Beltaine con Morrigan ed Earlann"),
             new ("Annon lle", "Prego", Q),
