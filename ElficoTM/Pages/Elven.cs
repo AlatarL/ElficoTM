@@ -48,7 +48,7 @@ namespace ElficoTM.Pages
             new ("Bala", "Dio", T),
             new ("Bala nenion ar i sanweo", "Dio delle acque e della meditazione. Earlann", T),
             new ("Balai", "Dei", T),
-            new ("Balain", "Dei", S),
+            new ("Belain", "Dei", S),
             new ("Balan", "Dio", S),
             new ("Beltaine", "“Dea della vita e delle foreste”, “regina della luce”, “la grande madre”"),
             new ("Bereth", "Regina", S),
