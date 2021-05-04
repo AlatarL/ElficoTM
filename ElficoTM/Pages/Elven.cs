@@ -114,13 +114,15 @@ namespace ElficoTM.Pages
             new ("Illume saira", "Sempre saggio. Earlann", T),
             new ("Ingol", "Magia", Q),
             new ("Ista Hosseo", "Veterano della flotta. Titolo di Rotiniel"),
-            new ("Istar", "Mago/stegone"),
+            new ("Istar", "Mago, stegone"),
             new ("Istar en'alak", "Mago del vento. Titolo di Valinor"),
             new ("Istar en'mizde", "Mago della pioggia. Titolo di Valinor"),
             new ("Istar en'nar", "Mago della foglia/terra. Titolo di Valinor"),
             new ("Istar en'ndor", "Mago del fuoco. Titolo di Valinor"),
-            new ("Istari", "Maghi/stregoni"),
+            new ("Istari", "Maghi, stregoni"),
             new ("Istyar en'Nolwen", "Cercatore del sapere. Titolo di Rotiniel", Q),
+            new ("Ithron", "Mago, stregone", S),
+            new ("Ithryn", "Maghi, stregoni", S),
             // J
             // K
             new ("Karani", "Arma rossa, simbolo del generale di Valinor"),
