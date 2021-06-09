@@ -34,7 +34,7 @@ namespace ElficoTM.Pages
             new ("Aran Tumno", "Re del profondo. Earlann in forma di balena", T),
             new ("Arani", "Re (plurale)", Q),
             new ("Araton en'Meletya", "Alfiere della forza", Q),
-            new ("Argur", "Consigliere dorato", S),
+            new ("Argur", "Consigliere dorato. Titolo di Valinor", S),
             new ("Arianar", "Iniziato del sole. Titolo di Valinor"),
             new ("Arwe Earenya", "Custode delle riserve. Titolo di Rotiniel"),
             new ("Asar annarion ar kemeno", "Festa dei doni della terra. Rito di Beltaine"),
@@ -81,7 +81,7 @@ namespace ElficoTM.Pages
             new ("Eleni", "Stelle"),
             new ("Elentari", "Regina delle stelle. Morrigan"),
             new ("Eruanna", "Dono di Morrigan. Magia"),
-            new ("Estannen", "Chiamato. Titolo di Valinor"),
+            new ("Estannen", "Chiamato (dai Valar). Recluta. Titolo di Valinor"),
             // F
             new ("Faer doron", "Spirito della quercia", S),
             new ("Faerin", "Spiriti", S),
@@ -117,8 +117,8 @@ namespace ElficoTM.Pages
             new ("Istar", "Mago, stegone"),
             new ("Istar en'alak", "Mago del vento. Titolo di Valinor"),
             new ("Istar en'mizde", "Mago della pioggia. Titolo di Valinor"),
-            new ("Istar en'nar", "Mago della foglia/terra. Titolo di Valinor"),
-            new ("Istar en'ndor", "Mago del fuoco. Titolo di Valinor"),
+            new ("Istar en'nar", "Mago della foglia. Titolo di Valinor"),
+            new ("Istar en'ndor", "Mago della fiamma. Titolo di Valinor"),
             new ("Istari", "Maghi, stregoni"),
             new ("Istyar en'Nolwen", "Cercatore del sapere. Titolo di Rotiniel", Q),
             new ("Ithron", "Mago, stregone", S),
@@ -253,7 +253,7 @@ namespace ElficoTM.Pages
             // U
             new ("Únótimë lar", "Innumerevoli riccheze. Tipico saluto tra mercanti", T),
             // V
-            new ("Val'istar", "Grande mago/stregone. Titolo di Valinor"),
+            new ("Val'istar", "Grande stregone. Titolo di Valinor"),
             new ("Vàla", "Dio", Q),
             new ("Vàlar" , "Dei", Q),
             new ("Valìe", "Dea", Q),
