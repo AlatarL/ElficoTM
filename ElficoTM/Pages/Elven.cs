@@ -65,6 +65,7 @@ namespace ElficoTM.Pages
             // D
             new ("Diolla lle", "Grazie"),
             new ("Doriath", "Terra inghirlandata dal mare. Continente elfico"),
+            new ("Dul laman", "Pantera del crepuscolo. Titolo di Valinor"),
             // E
             new ("Earlann", "“Dio delle acque e della meditazione”, “signore dei mari”, “il sempre saggio”"),
             new ("Earost", "Fortezza del mare. Rotiniel", S),
@@ -133,6 +134,7 @@ namespace ElficoTM.Pages
             new ("Kuru Raen", "Sapiente della luna. Titolo di Valinor"),
             // L
             new ("Langol", "Magia proibita", Q),
+            new ("Laman", "Pantera. Titolo di Valinor"),
             new ("Lantar", "Decadentisti"),
             new ("Lasse", "Novizio. Titolo di Valinor", S),
             new ("Lass Galen", "Foglia verde. Regina", S),
@@ -172,6 +174,7 @@ namespace ElficoTM.Pages
             new ("Mique earo ar kemeno", "Bacio di mare e terra. Rito di Beltaine ed Earlann"),
             new ("Minya angwar", "Primo grifone. Titolo di Valinor"),
             new ("Minya draug", "Primo lupo. Titolo di Valinor"),
+            new ("Minya laman", "Prima pantera. Titolo di Valinor"),
             new ("Minya manachtar", "Primo paladino. Titolo di Rotiniel"),
             new ("Mire earenya", "Tesoriere. Titolo di Rotiniel"),
             new ("Mîthrim", "Elfi grigi. Sindar", S),
@@ -191,8 +194,9 @@ namespace ElficoTM.Pages
             new ("Nay", "No"),
             new ("Nelya", "Terzo"),
             new ("Nelyar", "Terzi. Teleri"),
-            new ("Net angwar", "Giovane grifone. Titolo di Valinor"),
+            new ("Neth angwar", "Giovane grifone. Titolo di Valinor"),
             new ("Neth draug", "Giovane lupo. Titolo di Valinor"),
+            new ("Neth laman", "Giovane pantera. Titolo di Valinor"),
             new ("Nimphel", "Perla. Rotiniel", S),
             new ("Ninque alda", "Bianco albero. Tulip"),
             new ("Ninque sàila", "Bianco saggio. Titolo di Valinor", Q),
