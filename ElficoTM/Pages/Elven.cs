@@ -130,7 +130,7 @@ namespace ElficoTM.Pages
             new ("Kelthra", "“Regina dei ragni”, “la figlia di Luugh”, “regina di veleno e malattie”"),
             new ("Khalna", "Maestro (di magia)"),
             new ("Kiirar en'losse", "Custode dei sussurri. Titolo di Rotiniel", Q),
-            new ("Kiinar en'nolwen", "Custode del sapere. Titolo di Rotiniel", Q),
+            new ("Kiirar en'nolwen", "Custode del sapere. Titolo di Rotiniel", Q),
             new ("Kuru Raen", "Sapiente della luna. Titolo di Valinor"),
             // L
             new ("Langol", "Magia proibita", Q),
