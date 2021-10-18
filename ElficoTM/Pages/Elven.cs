@@ -171,6 +171,7 @@ namespace ElficoTM.Pages
             new ("Marilla", "Perla. Rotiniel", Q),
             new ("Meina", "Accolito. Titolo di Valinor"),
             new ("Meldo", "Amico (degli elfi)", Q),
+            new ("Meleth", "Amore", S),
             new ("Mellon", "Amico (degli elfi)", S),
             new ("Mellon en'valinor", "Amico di Valinor. Titolo di Valinor", S),
             new ("Men, piano della", "Luogo di provenienza del potere magico"),
