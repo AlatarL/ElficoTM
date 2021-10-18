@@ -55,7 +55,7 @@ namespace ElficoTM.Pages
             new ("Beriardir en’rim", "Generale dell'armata degli araldi. Titolo di Valinor"),
             new ("Berith", "Regine", S),
             // C
-            new ("Cala amanirme", "Sommo sacerdote. Titolo di Rotiniel"),
+            new ("Cala amanirme", "Sommo sacerdote. Titolo di Rotiniel (in disuso)"),
             new ("Calaquende", "Elfo della luce. Quenya"),
             new ("Calaquendi", "Elfi della luce. Quenya"),
             new ("Calen", "Verde. Tiond"),
@@ -111,6 +111,7 @@ namespace ElficoTM.Pages
             new ("Hirao", "Iniziato. Titolo di Rotiniel"),
             new ("Hosse", "Flotta", Q),
             // I
+            new ("Ihilie", "Scudiero. Titolo di Rotinel"),
             new ("Ilkarin gobol", "Villaggio di Ilkorin"),
             new ("Illume saira", "Sempre saggio. Earlann", T),
             new ("Ingol", "Magia", Q),
@@ -129,6 +130,8 @@ namespace ElficoTM.Pages
             new ("Karani", "Arma rossa, simbolo del generale di Valinor"),
             new ("Kelthra", "“Regina dei ragni”, “la figlia di Luugh”, “regina di veleno e malattie”"),
             new ("Khalna", "Maestro (di magia)"),
+            new ("Kiirar en'aina", "Custode della fede. Titolo di Rotiniel", Q),
+            new ("Kiirar en'Eruanna", "Custode del Dono. Titolo di Rotiniel", Q),
             new ("Kiirar en'losse", "Custode dei sussurri. Titolo di Rotiniel", Q),
             new ("Kiirar en'nolwen", "Custode del sapere. Titolo di Rotiniel", Q),
             new ("Kuru Raen", "Sapiente della luna. Titolo di Valinor"),
@@ -174,6 +177,7 @@ namespace ElficoTM.Pages
             new ("Mique earo ar kemeno", "Bacio di mare e terra. Rito di Beltaine ed Earlann"),
             new ("Minya angwar", "Primo grifone. Titolo di Valinor"),
             new ("Minya draug", "Primo lupo. Titolo di Valinor"),
+            new ("Minya elen", "Primo astro. Titolo di Rotiniel"),
             new ("Minya laman", "Prima pantera. Titolo di Valinor"),
             new ("Minya manachtar", "Primo paladino. Titolo di Rotiniel"),
             new ("Mire earenya", "Tesoriere. Titolo di Rotiniel"),
@@ -224,7 +228,8 @@ namespace ElficoTM.Pages
             new ("Rotto nelyar", "Grotta dei terzi. Luogo sacro ai teleri"),
             // S
             new ("Sairo en'nolwen", "Discente del sapere. Titolo onorario di Rotiniel", Q),
-            new ("Samnar", "Cardine. Titolo di Rotiniel"),
+            new ("Samna", "Cardine. Titolo di Rotiniel"),
+            new ("Samnar", "Cardini. Titolo di Rotiniel"),
             new ("Saràt Nomë", "Sigillo dell'esilio. Rituale magico"),
             new ("Sèler", "Sorella (solo tra elfi)"),
             new ("Sèlerin", "Sorelle (solo tra elfi)"),
@@ -254,6 +259,7 @@ namespace ElficoTM.Pages
             new ("Tòr", "Fratello (solo tra elfi)"),
             new ("Toronin", "Fratelli (solo tra elfi)"),
             new ("Tuima", "Gemma, germoglio. Abitante di Valinor. Titolo di Valinor"),
+            new ("Tura en'Eruanna", "Maestro del Dono. Titolo di Rotiniel"),
             // U
             new ("Únótimë lar", "Innumerevoli riccheze. Tipico saluto tra mercanti", T),
             // V
