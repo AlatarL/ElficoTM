@@ -32,6 +32,7 @@ namespace ElficoTM.Pages
             new ("Aracano Fanyaron", "Conduttrice dei cieli. Morrigan", T),
             new ("Aran", "Re (singolare)", Q),
             new ("Aran Tumno", "Re del profondo. Earlann in forma di balena", T),
+            new ("Aranel", "Principessa", Q),
             new ("Arani", "Re (plurale)", Q),
             new ("Araton en'Meletya", "Alfiere della forza", Q),
             new ("Argur", "Consigliere dorato. Titolo di Valinor", S),
