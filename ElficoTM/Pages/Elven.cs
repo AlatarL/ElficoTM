@@ -101,6 +101,7 @@ namespace ElficoTM.Pages
             new ("Gwedeir", "Fratelli (solo tra sindar o elfi a cui si sentono particolarmente vicini)", S),
             new ("Gwethil", "Sorelle (solo tra sindar o elfi a cui si sentono particolarmente vicini)", S),
             // H
+            new ("Halla roquen", "Stratega. Titolo di Rotiniel"),
             new ("Haran", "Re (singolare)", S),
             new ("Haryon hosseo", "Ammiraglio della flotta. Titolo di Rotiniel"),
             new ("Hera hosseo", "Capitano della flotta. Titolo di Rotiniel"),
@@ -224,7 +225,7 @@ namespace ElficoTM.Pages
             new ("Quel kiruva", "Buona navigazione", Q),
             new ("Quel ré", "Buon giorno", Q),
             new ("Quendilen", "Amici degli elfi"),
-            new ("Quistaher ", "Giudice. Titolo di Rotiniel"),
+            new ("Quistaher ", "Luogotenente. Titolo di Rotiniel"),
             // R
             new ("Roquen Earion", "Cavaliere dei mari. Titolo di Rotiniel"),
             new ("Rotinrim", "Cittadini di Rotiniel"),
