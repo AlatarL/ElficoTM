@@ -3,11 +3,11 @@
 <table>
     <tr>
         <td>Cerca lemma</td>
-        <td><input type="text" @bind="_headwordInput" @bind:event="oninput" @onkeypress="HeadwordKeyPressHandler" /></td>
+        <td><input type="search" @bind="_headwordInput" @bind:event="oninput" @onkeypress="HeadwordKeyPressHandler" /></td>
     </tr>
     <tr>
         <td>Cerca definizione</td>
-        <td><input type="text" @bind="_descriptionInput" @bind:event="oninput" @onkeypress="DescriptionKeyPressHandler" /></td>
+        <td><input type="search" @bind="_descriptionInput" @bind:event="oninput" @onkeypress="DescriptionKeyPressHandler" /></td>
     </tr>
 </table>
 
