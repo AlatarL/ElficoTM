@@ -79,6 +79,7 @@ namespace ElficoTM.Pages
             new ("Eldar", "Elfi", Q),
             new ("Eldar earen", "Elfi del mare. Teleri"),
             new ("Elen", "Stella"),
+            new ("Elen síla lúmenn’ omentielvo", "Una stella brilla sull'ora del nostro incontro. Comune saluto", Q),
             new ("Elendil", "Amico delle stelle (e degli elfi)", Q),
             new ("Eleni", "Stelle"),
             new ("Elentari", "Regina delle stelle. Morrigan"),
