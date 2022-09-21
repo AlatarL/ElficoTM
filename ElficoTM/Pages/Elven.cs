@@ -271,11 +271,13 @@ namespace ElficoTM.Pages
             new ("Val'istar", "Grande stregone. Titolo di Valinor"),
             new ("Vàla", "Dio", Q),
             new ("Vàlar" , "Dei", Q),
+            new ("Valar valuvàr", "Sia fatto il volere dei valar", Q),
             new ("Valìe", "Dea", Q),
             new ("Valìer" , "Dee", Q),
             new ("Valim", "Chiaromanto. Simbolo di Valinor, due alberi abbracciati"),
             new ("Valinrim", "Membri di Valinor"),
             new ("Valinor", "Regno imperituro. Reame/gilda di quenya e sindar con sede ad Ondolinde"),
+            new ("Valinor valuvàr", "Sia fatto il volere di Valinor", Q),
             new ("Veduì", "Saluto d'arrivo formale", Q),
             // W
             // X
