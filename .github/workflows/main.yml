@@ -24,11 +24,8 @@ jobs:
       run: dotnet publish ElficoTM.sln -c Release -o release --nologo
     
     # changes the base-tag in index.html 
-    ##- name: Change base-tag in index.html
-    ##  run: sed -i 's/<base href="\/" \/>/<base href="\/ElficoTM\/" \/>/g' release/wwwroot/index.html
-
-    - name: Copy index.html
-      run: cp release/wwwroot/_framework/index.html release/wwwroot/index.html
+    - name: Change base-tag in index.html
+      run: sed -i 's/<base href="\/" \/>/<base href="\/ElficoTM\/" \/>/g' release/wwwroot/index.html
 
     # add .nojekyll file to tell GitHub pages to not treat this as a Jekyll project. (Allow files and folders starting with an underscore)
     - name: Add .nojekyll file
