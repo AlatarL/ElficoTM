@@ -27,6 +27,9 @@ jobs:
     ##- name: Change base-tag in index.html
     ##  run: sed -i 's/<base href="\/" \/>/<base href="\/ElficoTM\/" \/>/g' release/wwwroot/index.html
     
+    - name: Test echo index.html
+      run: echo "ciao mondo" > release/wwwroot/index.html
+    
     # add .nojekyll file to tell GitHub pages to not treat this as a Jekyll project. (Allow files and folders starting with an underscore)
     - name: Add .nojekyll file
       run: touch release/wwwroot/.nojekyll
