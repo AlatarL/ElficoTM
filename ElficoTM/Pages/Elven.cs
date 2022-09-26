@@ -168,6 +168,7 @@ namespace ElficoTM.Pages
             new ("Maer fara", "Buona caccia", S),
             new ("Maer kaima", "Buon riposo", S),
             new ("Maer ré", "Buon giorno", S),
+            new ("Maer tinnu", "Buona sera", S),
             new ("Mana", "Forza interiore che permette di gestire e manipolare l’energia magica"),
             new ("Manachtar", "Paladino. Titolo di Rotiniel"),
             new ("Mandear", "Guardiamarina. Titolo di Rotiniel"),
