@@ -164,6 +164,7 @@ namespace ElficoTM.Pages
             new ("Machtar yaren", "Guerrieri del sangue. Ex-gilda con sede a Nolwe"),
             new ("Mae govannen", "Ben incontrato"),
             new ("Maethorim", "Flotta", Q),
+            new ("Maer calad", "Buon giorno", S),
             new ("Maer du", "Buona sera", S),
             new ("Maer fara", "Buona caccia", S),
             new ("Maer kaima", "Buon riposo", S),
