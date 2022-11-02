@@ -75,6 +75,7 @@ namespace ElficoTM.Pages
             new ("Edhel mhithren", "Elfo grigio. Sindar", S),
             new ("Edhil", "Elfi", S),
             new ("Edhil mhithrin", "Elfi grigi. Sindar", S),
+            new ("Elbereth", "Regina delle stelle. Morrigan", S),
             new ("Elda", "Elfo", Q),
             new ("Eldar", "Elfi", Q),
             new ("Eldar earen", "Elfi del mare. Teleri"),
