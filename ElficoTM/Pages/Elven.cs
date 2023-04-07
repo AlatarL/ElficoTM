@@ -60,6 +60,7 @@ namespace ElficoTM.Pages
             new ("Calaquende", "Elfo della luce. Quenya"),
             new ("Calaquendi", "Elfi della luce. Quenya"),
             new ("Calen", "Verde. Tiond"),
+            new ("Caneldarion", "Comando degli elfi, imperialismo"),
             new ("Caran-carch", "Zanna-Rossa. Suldanas in forma di lupo"),
             new ("Ciria fairion", "Nave fantasma. Leggenda telera"),
             new ("Curu", "Arte arcana, conoscenza magica"),
