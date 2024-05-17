@@ -1,4 +1,5 @@
 ﻿using System.Collections.Generic;
+using System.Data;
 
 namespace ElficoTM.Pages
 {
@@ -17,6 +18,7 @@ namespace ElficoTM.Pages
             new ("Aearedhel", "Elfo marino. Teler", S),
             new ("Aearedhil", "Elfi marini. Teleri", S),
             new ("Aiya", "Saluto d'arrivo. Salve", Q),
+            new ("Alamandur", "Allevatore reale. Titolo di Rotiniel"),
             new ("Alda morn", "Albero nero. Tulip nero"),
             new ("Algul", "Magia proibita", S),
             new ("Aman Aire", "Sommo sole. Titolo di Valinor"),
@@ -106,6 +108,7 @@ namespace ElficoTM.Pages
             // H
             new ("Halla roquen", "Stratega. Titolo di Rotiniel"),
             new ("Haran", "Re (singolare)", S),
+            new ("Harfaron", "Cacciatore di tesori. Titolo di Rotiniel"),
             new ("Haryon hosseo", "Ammiraglio della flotta. Titolo di Rotiniel"),
             new ("Hera hosseo", "Capitano della flotta. Titolo di Rotiniel"),
             new ("Herain", "Re (plurale)", S),
@@ -255,7 +258,15 @@ namespace ElficoTM.Pages
             new ("Tàriel", "Terathen (singolare)"),
             new ("Tàrieli", "Terathen (plurale)"),
             new ("Tarir", "Regine", Q),
+            new ("Tanwe cemendur", "Mastro agricoltore. Titolo di Rotiniel"),
+            new ("Tanwe cemiar", "Mastro alchimista. Titolo di Rotiniel"),
             new ("Tanwe earenya", "Mastro artigiano. Titolo di Rotiniel"),
+            new ("Tanwe laurar", "Mastro stagnino. Titolo di Rotiniel"),
+            new ("Tanwe maxar", "Mastro cuoco. Titolo di Rotiniel"),
+            new ("Tanwe quingar", "Mastro intagliatore. Titolo di Rotiniel"),
+            new ("Tanwe samno", "Mastro carpentiere. Titolo di Rotiniel"),
+            new ("Tanwe serar", "Mastro sarto. Titolo di Rotiniel"),
+            new ("Tanwe sintamo", "Mastro fabbro. Titolo di Rotiniel"),
             new ("Tawar", "Elfo silvano. Sindar", S),
             new ("Tawarwaith", "Elfi silvani. Sindar", S),
             new ("Tercan en'estel", "Araldo della fede. Titolo onorario di Rotiniel", Q),
@@ -269,6 +280,7 @@ namespace ElficoTM.Pages
             new ("Toronin", "Fratelli (solo tra elfi)"),
             new ("Tuima", "Gemma, germoglio. Abitante di Valinor. Titolo di Valinor"),
             new ("Tura en'Eruanna", "Maestro del Dono. Titolo di Rotiniel"),
+            new ("Turco hostar", "Capo raccoglitore. Titolo di Rotiniel"),
             // U
             new ("Únótimë lar", "Innumerevoli riccheze. Tipico saluto tra mercanti", T),
             // V
