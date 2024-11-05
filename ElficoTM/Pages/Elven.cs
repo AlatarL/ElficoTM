@@ -202,6 +202,7 @@ namespace ElficoTM.Pages
             new ("Morrigan", "“Dea della magia e della dissimulazione”, “signora degli inganni”, “regina delle stelle”"),
             // N
             new ("Naàmarie", "Saluto di congedo. Addio"),
+            new ("Naerion", "Collettività"),
             new ("Nauco", "Tozzo. Nano", Q),
             new ("Naucor", "Tozzi. Nani", Q),
             new ("Naug", "Nano", S),
